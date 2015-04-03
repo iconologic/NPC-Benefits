@@ -172,10 +172,6 @@ h1, h2, h3, h4, h5, h6 {
 	color: #2e3540 !important;
 }
 
-.small-lead {
-	font-size: 16px;
-}
-
 h1 {
 	font-family: 'Montserrat-Hairline', sans-serif;
 	/*font-family: 'Raleway', sans-serif;*/
@@ -428,6 +424,15 @@ section {
 .csstransitions .animated,
 .animated {
     visibility: hidden;
+}
+
+
+.bounce {
+	-webkit-animation: bounce 2s infinite;
+	-moz-animation: bounce 2s infinite;
+	-ms-animation: bounce 2s infinite;
+	-o-animation: bounce 2s infinite;
+	animation: bounce 2s infinite;
 }
 
 .csstransitions .visible {

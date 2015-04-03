@@ -39,20 +39,20 @@
 
 @font-face{ 
 	font-family: 'Montserrat-Light';
-	src: url('/fonts/Montserrat-Light-webfont.eot');
-	src: url('/fonts/Montserrat-Light-webfont.eot?#iefix') format('embedded-opentype'),
-	     url('/fonts/Montserrat-Light-webfont.woff') format('woff'),
-	     url('/fonts/Montserrat-Light-webfont.ttf') format('truetype'),
-	     url('/fonts/Montserrat-Light-webfont.svg#webfont') format('svg');
+	src: url('fonts/Montserrat-Light-webfont.eot');
+	src: url('fonts/Montserrat-Light-webfont.eot?#iefix') format('embedded-opentype'),
+	     url('fonts/Montserrat-Light-webfont.woff') format('woff'),
+	     url('fonts/Montserrat-Light-webfont.ttf') format('truetype'),
+	     url('fonts/Montserrat-Light-webfont.svg#webfont') format('svg');
 }
 
 @font-face{ 
 	font-family: 'Montserrat-Hairline';
-	src: url('/fonts/Montserrat-Hairline-webfont.eot');
-	src: url('/fonts/Montserrat-Hairline-webfont.eot?#iefix') format('embedded-opentype'),
-	     url('/fonts/Montserrat-Hairline-webfont.woff') format('woff'),
-	     url('/fonts/Montserrat-Hairline-webfont.ttf') format('truetype'),
-	     url('/fonts/Montserrat-Hairline-webfont.svg#webfont') format('svg');
+	src: url('fonts/Montserrat-Hairline-webfont.eot');
+	src: url('fonts/Montserrat-Hairline-webfont.eot?#iefix') format('embedded-opentype'),
+	     url('fonts/Montserrat-Hairline-webfont.woff') format('woff'),
+	     url('fonts/Montserrat-Hairline-webfont.ttf') format('truetype'),
+	     url('fonts/Montserrat-Hairline-webfont.svg#webfont') format('svg');
 }
 
 
@@ -168,7 +168,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
-	font-family: 'Monteserrat', sans-serif;
+	font-family: 'Montserrat-Hairline', sans-serif;
 	/*font-family: 'Raleway', sans-serif;*/
 	font-size: 62px;
 	position: relative;
@@ -2013,7 +2013,7 @@ textarea::-webkit-input-placeholder {
 }
 
 .textslider h1 {
-	font-size: 82px;
+	font-size: 132px;
 	font-weight: 100;
 }
 
